@@ -1,0 +1,30 @@
+.pic {
+  display: flex;
+  height: 40vh;
+  width: 40vw;
+  flex-grow: 1;
+  padding: auto;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+@media only screen and (min-width: 800px) {
+  .pic {
+    width: 20vw;
+    height: 30vh;
+    padding: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pic {
+    width: 60vw;
+    height: 30vh;
+    padding: auto;
+  }
+}
