@@ -1,2 +1,2 @@
-# Nature-s-pic
-Simple web-app
+# Nature's-pic
+Simple React web-app. Images fetched from unsplash API
